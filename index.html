@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encrypt</title>
+</head>
+<body>
+    <section class="leftSection">
+        <header>
+            <a href="https://alvaroist.github.io"><img src="images/author_pic.png" alt="author-photo"></a>
+        </header>
+        <div class="leftSection__encryptDecript">
+            <textarea class="leftSection__encryptDecript-textInput" placeholder="Enter your text here" required="" name="textInput"></textarea>
+        </div>
+        <div class="leftSection__encryptDecript--message">
+            <img src="images/bi_exclamation-circle-fill.png" alt="exclamationIcon"><span>Lowercase letters without accent only</span>
+        </div>
+        <div class="leftSection__buttons">
+            <input type="button" class="leftSection__buttons--encrypt" name="Encrypt" value="Encrypt">
+            <input type="button" class="leftSection__buttons--decrypt" name="Decrypt" value="Decrypt">
+        </div>
+    </section>
+    <section class="rightSection">
+        <div class="rightSection__resultpanel">
+            <img src="images/searchresult.png" alt="search-image">
+            <p class="rightSection__resultpanel--message">No messages found yet</p>
+            <p>Type the text you want to encrypt or decrypt</p>
+        </div>
+        <div class="rightSection__resultBar">
+            <textarea class="rightSection__resultBar--textResult" cols="45" rows="20" name="textResult"></textarea>
+            <div class="rightSection__resultBar--button">
+                <input class="rightSection__resultBar--button-copy" type="button" name="copy" value="Copy">
+            </div>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
