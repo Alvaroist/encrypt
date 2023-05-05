@@ -8,7 +8,7 @@
     <title>Encrypt</title>
 </head>
 <body>
-    <section class="leftSection">
+    <section class="leftSection"><!-- In this section the user types the paragraph or word to be encrypy or decrypt-->
         <header>
             <a href="https://alvaroist.github.io"><img src="images/author_pic.png" alt="author-photo"></a>
         </header>
@@ -23,13 +23,13 @@
             <input type="button" class="leftSection__buttons--decrypt" name="Decrypt" value="Decrypt">
         </div>
     </section>
-    <section class="rightSection">
-        <div class="rightSection__resultpanel">
+    <section class="rightSection"><!-- this section shows the words encrypted or decrypted-->
+        <div class="rightSection__resultpanel"><!-- This part is showed when there is no results-->
             <img src="images/searchresult.png" alt="search-image">
             <p class="rightSection__resultpanel--message">No messages found yet</p>
             <p>Type the text you want to encrypt or decrypt</p>
         </div>
-        <div class="rightSection__resultBar">
+        <div class="rightSection__resultBar"><!-- This part is showed when there is a result-->
             <textarea class="rightSection__resultBar--textResult" cols="45" rows="20" name="textResult"></textarea>
             <div class="rightSection__resultBar--button">
                 <input class="rightSection__resultBar--button-copy" type="button" name="copy" value="Copy">
